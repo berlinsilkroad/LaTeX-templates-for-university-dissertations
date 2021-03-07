@@ -1,0 +1,14 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: upcsis_advanced.aux
+I couldn't open style file mybst.bst
+---line 17 of file upcsis_advanced.aux
+ : \bibstyle{mybst
+ :                }
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: abstract_cn.aux
+A level-1 auxiliary file: abstract_en.aux
+A level-1 auxiliary file: contents.aux
+A level-1 auxiliary file: conclusion_reference_thanks.aux
+I found no \bibdata command---while reading file upcsis_advanced.aux
+I found no style file---while reading file upcsis_advanced.aux
+(There were 3 error messages)
