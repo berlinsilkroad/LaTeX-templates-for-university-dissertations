@@ -1,0 +1,52 @@
+% 导言区
+%导入article类   还有book，report，letter其他类
+%主要用于进行全局设置
+%\documentclass{article}   %book report letter article
+
+\documentclass{ctexart}  %ctexart等价于使用article类 然后再导入ctex宏包
+
+%\usepackage{ctex} %引入宏包  texdoc ctex查看说明文档
+
+
+\title{\heiti 勾股定理}  %文档标题 黑体
+\author{\kaishu Berlin} %作者姓名 楷书
+\date{\today}  %文档时间今天
+
+
+%正文区（文稿区）
+\begin{document}
+	\maketitle  %输出标题 
+	%section subsection subsubsection 等命令可以设置提纲
+	\section{引言}
+	%插入一段正文 空行代表另起一段有缩紧（多个空行相当于一个）；\\代表换行没有缩紧；\par相当于空行另起一段 一般为了结构清晰 更多使用空行
+	有这么一句话在业界广泛流传：数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已。那特征工程到底是什么呢？顾名思义，其本质是一项工程活动，目的是最大限度地从原始数据中提取特征以供算法和模型使用。通过总结和归纳，目前认为特征工程包括以下方面。
+	
+	有这么一句话在业界广泛流传：数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已。那特征工程到底是什么呢？\\顾名思义，其本质是一项工程活动，目的是最大限度地从原始数据中提取特征以供算法和模型使用。通过总结和归纳，\par 目前认为特征工程包括以下方面。
+	\section{实验方法}
+	
+	\section{实验结果}
+	
+	\subsection{数据}
+	\subsection{图表}
+	\subsubsection{实验条件}
+	\subsubsection{实验过程}
+	\subsection{结果分析}
+	\section{结论}
+	\section{致谢}
+	
+
+	%\begin{tabular}[<垂直对齐方式>]{<列格式说明>}
+	%	<表项> & <表项> & <表项> & ...&<表项>\\
+	\begin{tabular}{l||c|c|c|r|p{1.5cm}}
+		\hline \hline
+		姓名 & 语文 & 数学 & 英语 & 物理 & 备注\\
+		\hline \hline
+		张三 & 87 &100 & 90 & 100 & 良好\\
+		\hline
+		李四 & 20 & 30 & 40 & 50 & 补考，请等待通知。\\
+		\hline
+		张无忌 & 100 & 100 & 100 & 100 & 优秀\\
+	\end{tabular}
+	
+	
+\end{document}
